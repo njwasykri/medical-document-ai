@@ -41,4 +41,104 @@ git init
 
 This command creates a local Git Repository inside the project folder. (If the project is already a Git Repository, this step is not required)
 
-## 4. 
+## 4. Add the Project Files
+
+Add the project files to the Git staging area:
+
+```bash
+git add .
+```
+
+The `.` means all files and folders in the current project directory will be added.
+
+Then, check the status through this command:
+
+```bash
+git status
+```
+
+Now, the files should appear under **Changes to be committed**.
+
+## 5. Create the First Commit
+
+Create a commit to save the current version of the project:
+
+```bash
+git commit -m "Initial project upload"
+```
+
+Then, the commit message describes the changes being saved.
+
+## 6. Create a Repository on GitHub
+
+Open GitHub in browser and create a new repository.
+
+For example:
+
+```text
+Repository name: medical-document-ai
+```
+
+>[!Note!]
+> If the project already has a local Git repository and commits, it is recommended to create the GitHub repository without adding a README file, `.gitignore`, or license during the initial setup.
+
+## 7. Connect the Local Repository to GitHub
+
+Copy the HTTPS URL of the GitHub repository:
+i) Click to the green button `<> Code` 
+ii) Copy the link in section HTTPS
+
+Example:
+
+```text
+https://github.com/njwasykri/medical-document-ai.git
+```
+Add the GitHub repository as the remote repository:
+
+```bash
+git remote add origin https://github.com/njwasykri/medical-document-ai.git
+```
+If a remote named `origin` already exists, use:
+
+```bash
+git remote set-url origin https://github.com/njwasykri/medical-document-ai.git
+```
+
+## 8. Verify the Remote Repository
+
+Check that the project is connected to the correct GitHub repository:
+
+```bash
+git remote -v
+```
+
+The output should look similar to:
+
+```text
+origin  https://github.com/njwasykri/medical-document-ai.git (fetch)
+origin  https://github.com/njwasykri/medical-document-ai.git (push)
+```
+
+## 9. Set the Main Branch
+
+Rename the current branch to 'main':
+
+```bash
+git branch -M main
+```
+
+##10. Push the Project to GitHub
+
+Push the local project to GitHub:
+
+```bash
+git push -u origin main
+```
+
+> [!Note]
+> The first push may require GitHub authentication through a web browser.
+> After a successful authentication, the project files will appear in the GitHub repository.
+ 
+
+
+
