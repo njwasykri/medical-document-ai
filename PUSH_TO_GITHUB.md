@@ -79,7 +79,7 @@ For example:
 Repository name: medical-document-ai
 ```
 
->[!Note!]
+>[!Note]
 > If the project already has a local Git repository and commits, it is recommended to create the GitHub repository without adding a README file, `.gitignore`, or license during the initial setup.
 
 ## 7. Connect the Local Repository to GitHub
