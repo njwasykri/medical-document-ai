@@ -127,7 +127,7 @@ Rename the current branch to 'main':
 git branch -M main
 ```
 
-##10. Push the Project to GitHub
+## 10. Push the Project to GitHub
 
 Push the local project to GitHub:
 
