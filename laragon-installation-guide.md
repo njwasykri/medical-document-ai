@@ -18,6 +18,7 @@ Laragon is a local development used to develop and test web applications on a co
 <img width="498" height="279" alt="image" src="https://github.com/user-attachments/assets/1b90d6b2-9a66-48ee-95d3-d96ff0aac9dd" />
    
 3. Select the Destination Location and click Next. (For example, use `D:\laragon` if you want to avoid using additional space on your C: drive.)
+   **Note:** Make sure the selected drive has sufficient free space.
 
 <img width="710" height="544" alt="image" src="https://github.com/user-attachments/assets/12ea258a-45c8-49b6-a81c-b18298b5ad8e" />
 
