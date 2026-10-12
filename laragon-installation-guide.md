@@ -1,4 +1,4 @@
-## Laragon Setup, Database Migration, and XAMPP Uninstallation Guide
+# Laragon Setup, Database Migration, XAMPP Uninstallation, and Laravel Project Execution Guide
 
 ## 1.0 Introduction
 Laragon is a local development used to develop and test web applications on a computer. It provides tools for running web servers, databases, and web applications locally.
