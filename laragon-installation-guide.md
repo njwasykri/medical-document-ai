@@ -39,6 +39,28 @@ Laragon is a local development used to develop and test web applications on a co
 
 <img width="711" height="544" alt="image" src="https://github.com/user-attachments/assets/04ed542e-e3dd-46a2-862a-9fe26a9857f5" />
 
+## 4.0 Launch Laragon
+1. Open Laragon.
+2. Start the database service. Click Start All button.
    
+<img width="839" height="559" alt="image" src="https://github.com/user-attachments/assets/c5d2bc83-ab0e-4fd8-b9b9-72566f12a8d6" />
+
+3. Verify that the web server and database services start successfully.
+
+## 5.0 Create a Database
+1. Open Laragon
+2. Start the database service.
+3. Open the database management tool available in your installation, such as HeidiSQL. Click Database button.
+
+<img width="851" height="594" alt="image" src="https://github.com/user-attachments/assets/b8d5f4a6-0472-4b03-b84b-f2439d0b5a55" />
+
+4. Right click on Laragon.MySQL and create a new database.
+
+<img width="712" height="261" alt="image" src="https://github.com/user-attachments/assets/4b2a53b8-9367-43a8-9b65-a258ba15f805" />
+
+5. Enter a suitable database name and confirm.
+
+<img width="394" height="319" alt="image" src="https://github.com/user-attachments/assets/9f9ece95-7089-4498-96e0-790f59c3e9bf" />
 
 
+## 
