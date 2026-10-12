@@ -1,4 +1,4 @@
-# Laragon Installation and Setup Guide
+# # Laragon Setup, Database Migration, and XAMPP Uninstallation Guide
 
 ## 1.0 Introduction
 Laragon is a local development used to develop and test web applications on a computer. It provides tools for running web servers, databases, and web applications locally.
@@ -49,8 +49,11 @@ Laragon is a local development used to develop and test web applications on a co
 
 ## 5.0 Create a Database
 1. Open Laragon
-2. Start the database service.
-3. Open the database management tool available in your installation, such as HeidiSQL. Click Database button.
+2. Start the database service. Click Database button
+
+<img width="834" height="559" alt="image" src="https://github.com/user-attachments/assets/ee2a625a-3646-41cc-8554-1b7a2392b6c6" />
+
+3. Open the database management tool available in your installation, such as HeidiSQL.
 
 <img width="851" height="594" alt="image" src="https://github.com/user-attachments/assets/b8d5f4a6-0472-4b03-b84b-f2439d0b5a55" />
 
@@ -63,4 +66,25 @@ Laragon is a local development used to develop and test web applications on a co
 <img width="394" height="319" alt="image" src="https://github.com/user-attachments/assets/9f9ece95-7089-4498-96e0-790f59c3e9bf" />
 
 
-## 
+## 6.0 Import an Existing Database
+
+To migrate a database from XAMPP to Laragon:
+
+1. Export the database from phpMyAdmin in XAMPP as an SQL file.
+2. Start the database service in Laragon.
+3. Open HeidiSQL or another compatible database management tool in your Laragon.
+4. Create a new database with the required name.
+5. Import or execute the exported SQL file.
+6. Verify that the tables and records have been imported successfully.
+
+7. ## 7.0 Uninstalling XAMPP
+
+To make sure all your databases in XAMPP not deleted completely and cannot recover back, we need to backup the databases first. Don't delete the XAMPP folder until you've confirmed your databases are safe in Laragon.
+
+1. Open Windows settings ( Press Windows + I -> Select Apps -> Installed Apps )
+2. Search for XAMPP, click the three dots beside it, then choose Uninstall if available.
+3. Now, XAMPP completely removed from your laptop.
+
+After uninstalling, check whether X://xampp still exists.
+- If it contains files you still need, keep them or back them up.
+- If your databases are safely transferred and you no longer need XAMPP files, you can delete the remaining folder.
