@@ -16,6 +16,7 @@ Laragon is a local development used to develop and test web applications on a co
 5. Click Install button.
 6. Wait until the installation process is complete.
 7. Click Finish button.
+   
    <img width="717" height="547" alt="image" src="https://github.com/user-attachments/assets/44f3da04-3f3a-44fd-8731-c13a13e4421e" />
 
 
