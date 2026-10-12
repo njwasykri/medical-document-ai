@@ -139,7 +139,7 @@ Laragon is a local development used to develop and test web applications on a co
 
 <img width="1707" height="940" alt="image" src="https://github.com/user-attachments/assets/9e2de01a-2ba3-4f39-b45c-f3e6749d3e7f" />
 
-### 6.6 Stope the Development Server
+### 6.6 Stop the Development Server
 When you have finished testing the project:
 
 1. Return to the terminal where Laravel is running.
