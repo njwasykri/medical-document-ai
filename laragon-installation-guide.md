@@ -65,8 +65,89 @@ Laragon is a local development used to develop and test web applications on a co
 
 <img width="394" height="319" alt="image" src="https://github.com/user-attachments/assets/9f9ece95-7089-4498-96e0-790f59c3e9bf" />
 
+## 6.0 Create a Laravel Project in Laragon
+### 6.1 Start Laragon
+1. Open Laragon.
+2. Click Start ALL button to start the Apache and MySQL services.
+3. Make sure the services are running successfully.
 
-## 6.0 Import an Existing Database
+### 6.2 Create a Laravel Project
+1. Right-click on an empty space inside Laragon.
+2. Select Quick App > Laravel
+
+<img width="829" height="555" alt="image" src="https://github.com/user-attachments/assets/e9893e30-7dfc-46a8-af91-7ced6f771079" />
+
+3. Enter your desired project name, for example `my-laravel-app`.
+4. Click OK or confirm the project creation.
+5. Wait for Laragon to finish creating the Laravel project.
+
+### 6.3 Open the Laravel Project in VS Code
+1. Open VS Code
+2. Click File -> Open Folder
+3. Navigate to your Laragon www directory.
+
+<img width="767" height="540" alt="image" src="https://github.com/user-attachments/assets/ad4618c9-4d19-4cb0-99ba-ecb148677fb3" />
+
+4. Select your Laravel project folder, for example here is `test1`.
+5. Click Select Folder button.
+
+### 6.4 Open the Terminal in VS Code
+1. In VS Code, click Terminal -> New Terminal.
+2. Check that the terminal is inside your Laravel project directory.
+   The terminal path should look like this:
+   ```bash
+   PS D:\laragon\www\test1>
+   ```
+   If the terminal is in another directory, type:
+   ```bash
+   cd D:\laragon\wwww\test1
+   ```
+   Press Enter.
+3. Check PHP
+   
+   Type the following command:
+   ```bash
+   php -v
+   ```
+   
+   If PHP is configured correctly, its version information will appear.
+   > [!Note] If you see an error saying that php is not recognised, use the Laragon Terminal instead, or configure PHP in your windows PATH environment variable.
+
+4. Start the Laravel Development Server
+
+   In the terminal, type:
+   ```bash
+   php artisan serve
+   ```
+
+   Press Enter.
+
+   If successful, the terminal will display a message similar to:
+
+   ```text
+   INFO  Server running on [http://127.0.0.1:8000].
+   ```
+
+5. Open the Laravel Project in a Browser
+
+### 6.5 Open the Laravel Project in a Browser
+1. Copy the link given in the terminal before this.
+2. Open Google Chrome or another browser.
+3. Paste the link.
+4. Click Enter
+5. The Laravel welcome page should appear.
+
+<img width="1707" height="940" alt="image" src="https://github.com/user-attachments/assets/9e2de01a-2ba3-4f39-b45c-f3e6749d3e7f" />
+
+### 6.6 Stope the Development Server
+When you have finished testing the project:
+
+1. Return to the terminal where Laravel is running.
+2. Press Ctrl + C to stop the development server.
+
+You can start it again later by repeating step 4 in **subsection 6.4 Open the Terminal in VS Code.**
+
+## 7.0 Import an Existing Database
 
 To migrate a database from XAMPP to Laragon:
 
@@ -77,7 +158,7 @@ To migrate a database from XAMPP to Laragon:
 5. Import or execute the exported SQL file.
 6. Verify that the tables and records have been imported successfully.
 
-7. ## 7.0 Uninstalling XAMPP
+## 8.0 Uninstalling XAMPP
 
 To make sure all your databases in XAMPP not deleted completely and cannot recover back, we need to backup the databases first. Don't delete the XAMPP folder until you've confirmed your databases are safe in Laragon.
 
